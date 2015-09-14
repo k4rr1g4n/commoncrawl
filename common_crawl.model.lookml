@@ -8,6 +8,11 @@
 - explore: location
 
 - explore: main
+  joins:
+    - join: server
+      type: inner
+      relationship: many_to_one
+      sql_on: ${main.ser_id} = ${server.id}
 
 - explore: server
 
