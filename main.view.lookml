@@ -30,3 +30,6 @@
     type: count
     drill_fields: [id]
 
+  - measure: avg_order
+    type: avg
+    drill_fields: [contentlength]
