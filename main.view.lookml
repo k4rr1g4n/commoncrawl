@@ -32,4 +32,4 @@
 
   - measure: avg_contentlength
     type: avg
-    drill_fields: [main.contentlength]
+    sql: ${contentlength}
