@@ -33,3 +33,7 @@
   - measure: avg_contentlength
     type: avg
     sql: ${contentlength}
+    
+  - measure: avg_fetchtime
+    type: avg
+    sql: ${fetchtime}
